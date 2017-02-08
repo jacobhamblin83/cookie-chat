@@ -1,20 +1,28 @@
 html {
   height: 100%;
   width: 100%;
+    background: url(stars.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
+  background: transparent;
+
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.50);
   padding: 5px;
   border-radius: 10px;
+  
 }
 
 .main-container h1 {
@@ -26,8 +34,14 @@ body {
   width: 40%;
 }
 
+.messages-container {
+  display:flex;
+  flex-direction: column-reverse;
+}
+
 p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
 }
+
